@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='template_css.css'>
+    <script type="text/javascript" src="template.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <div class="content">
+            <ul id="menu">
+                <li><a href="#">TRANG CHỦ</a> </li>
+                <li><a href="#">GIÓI THIỆU</a></li>
+                <li><a href="#">SẢN PHẨM<i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="menu1" id="menu2">
+                        <li>VÁY ĐÀM</li>
+                        <li>CHÂN VÁY</li>
+                        <li>THỜI TRANG</li>
+                        <li>PHỤ KIỆN</li>
+                    </ul>
+                </li>
+                <li><a href="#">HƯỚNG DẤN<i class="fa-solid fa-angle-down"></i></a>
+                    <ul class="menu1">
+                        <li>VÁY ĐÀM</li>
+                        <li>CHÂN VÁY</li>
+                        <li>THỜI TRANG</li>
+                        <li>PHỤ KIỆN</li>
+                    </ul>
+                </li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+            <input type="search" id="search" placeholder="Tìm kiếm trong cữa hàng"><i class=" lup fa-solid fa-magnifying-glass">Tìm kiếm</i>
+        </div>
+        </div>
+        <img src="/img/slider_1.jpg"width=1200px>
+        <div id="banner">
+            <img src="/img/banner-1.jpg">
+            <img src="/img/banner-2.jpg">
+            <img src="/img/banner-3.jpg">
+        </div>
+    </div>
+    <div id="body">
+        <div class="content">
+            <ul id="toolbar">
+                <li onclick="fitterall()"><a ><i class=" star fa-solid fa-sun"></i></a></li>
+                <li onclick="fitter()"><a>VÁY ĐẦM</a></li>
+                <li onclick="fitter1()"><a >CHÂN VÁY</a></li>
+                <li onclick="fitter2()"><a >THỜI TRANG</a></li>
+                <li onclick="fitter3()"><a >PHỤ KIỆN</a></li>
+            </ul>
+            <div id="produce">
+                <form class="product1" method="POST" action="dathang2.php" id="vđ">
+                        <img src="/img/dammaxi2.jpg"width="200px">
+                        <input class="input" name="txtten" value="VÁY ĐẦM  MAXI BCBG" readonly>
+                        <input class="input1"name="txtp" value="1249000đ" readonly><del>1.349.000đ</del>
+                        <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+                <form class="product1" method="POST" action="dathang2.php"id="vđ1">
+                    <img src="/img/damsuong2.jpg" width="200px">
+                    <input class="input" name="txtten" value="VÁY ĐẦM  SUÔNG ASOS" readonly>
+                    <input class="input1"name="txtp" value="549000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+                <form class="product1" method="POST" action="dathang2.php"id="vđ2">
+                    <img src="/img/dam3.jpg" width="200px">
+                    <input class="input" name="txtten" value="VÁY ĐẦM  XÒA ASOS" readonly>
+                    <input class="input1"name="txtp" value="859000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG" >
+                </form>
+                <form class="product1" method="POST" action="dathang2.php" id="vđ3">
+                    <img src="/img/dam4.jpg" width="200px">
+                    <input class="input" name="txtten" value=" VÁY ĐẦM  MAXI ASOS" readonly>
+                    <input class="input1"name="txtp" value="560000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+            </div>
+            <div id="produce" >
+                <form class="product1" method="POST" action="dathang2.php"id="form1">
+                        <img src="/img/th.jpg"width="200px">
+                        <input class="input" name="txtten" value="CHÂN VÁY  MAXI BCBG" readonly>
+                        <input class="input1"name="txtp" value="1249000đ" readonly><del>1.349.000đ</del>
+                        <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+                <form class="product1" method="POST" action="dathang2.php"id="form2">
+                    <img src="/img/th (1).jpg" width="200px">
+                    <input class="input" name="txtten" value="CHÂN VÁY  SUÔNG ASOS" readonly>
+                    <input class="input1"name="txtp" value="549000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+                <form class="product1" method="POST" action="dathang2.php"id="form3">
+                    <img src="/img/th (2).jpg" width="200px">
+                    <input class="input" name="txtten" value="CHÂN VÁY  XÒA ASOS" readonly>
+                    <input class="input1"name="txtp" value="859000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG" >
+                </form>
+                <form class="product1" method="POST" action="dathang2.php" id="form4">
+                    <img src="/img/th (3).jpg" width="200px">
+                    <input class="input" name="txtten" value=" CHÂN VÁY  MAXI ASOS" readonly>
+                    <input class="input1"name="txtp" value="560000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+            </div>
+            <div id="produce" >
+                <form class="product1" method="POST" action="dathang2.php"id="tt2">
+                        <img src="/img/tt.jpg"width="200px">
+                        <input class="input" name="txtten" value="THỜI TRANG  MAXI BCBG" readonly>
+                        <input class="input1"name="txtp" value="1249000đ" readonly><del>1.349.000đ</del>
+                        <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+                <form class="product1" method="POST" action="dathang2.php"id="tt">
+                    <img src="/img/tt1.jpg" width="200px">
+                    <input class="input" name="txtten" value="THỜI TRANG  SUÔNG ASOS" readonly>
+                    <input class="input1"name="txtp" value="549000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+                <form class="product1" method="POST" action="dathang2.php"id="tt1">
+                    <img src="/img/tt2.jpg" width="200px">
+                    <input class="input" name="txtten" value="THỜI TRANG  XÒA ASOS" readonly>
+                    <input class="input1"name="txtp" value="859000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG" >
+                </form>
+                <form class="product1" method="POST" action="dathang2.php" id="tt3">
+                    <img src="/img/tt3.jpg" width="200px">
+                    <input class="input" name="txtten" value=" THỜI TRANG  MAXI ASOS" readonly>
+                    <input class="input1"name="txtp" value="560000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+            </div>
+            <div id="produce" >
+                <form class="product1" method="POST" action="dathang2.php"id="pk">
+                        <img src="/img/dc.jpg"width="200px">
+                        <input class="input" name="txtten" value="DÂY CHUYỀN" readonly>
+                        <input class="input1"name="txtp" value="1249000đ" readonly><del>1.349.000đ</del>
+                        <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+                <form class="product1" method="POST" action="dathang2.php"id="pk1">
+                    <img src="/img/tx.jpg" width="200px">
+                    <input class="input" name="txtten" value="TÚI XÁCH" readonly>
+                    <input class="input1"name="txtp" value="549000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+                <form class="product1" method="POST" action="dathang2.php"id="pk2">
+                    <img src="/img/lt.jpg" width="200px">
+                    <input class="input" name="txtten" value="LẮC TAY" readonly>
+                    <input class="input1"name="txtp" value="859000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG" >
+                </form>
+                <form class="product1" method="POST" action="dathang2.php" id="pk3">
+                    <img src="/img/lc.jpg" width="200px">
+                    <input class="input" name="txtten" value=" LẮC CHÂN" readonly>
+                    <input class="input1"name="txtp" value="560000đ" readonly><br>
+                    <input class="submit" type="submit" value="MUA HÀNG">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

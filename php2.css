@@ -1,0 +1,111 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+}
+form{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    float: left;
+    /* background-color: blueviolet; */
+}
+form h2{
+    color: blue;
+}
+.content{
+    width: 30%;
+    /* background-color: aqua; */
+    /* text-align: center; */
+}
+.content input{
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: 40px;
+    border-radius: 8px;
+    border: 1px solid silver;
+}
+#col_left{
+    float: left;
+    width: 140px;
+    /* background-color: blueviolet; */
+    height: 100px;
+}
+#col_left p{
+    margin-top: 20px;
+}
+#đn{
+    padding-top: 50px;
+    color: blue;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+#infor{
+    line-height: 40px;
+    background-color: rgb(90, 153, 226);
+    border-radius: 7px;
+}
+#vc{
+    margin-top: 50px;
+}
+#sum{
+    float: left;
+    margin-bottom: 20px;
+}
+#null1{
+    float: right;
+}
+#sl{
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+}
+#tt{
+    float: right;
+    width: 100px;
+    margin-top: 20px;
+}
+#tt:hover{
+    background-color: blue;
+}
+#null{
+    width: 15px;
+    border: 0px;
+}
+#pri{
+    width: 100px;
+    border: 0px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+#opri{
+    float: right;
+}
+#namesp{
+    float: left;
+    font-size: 15px;
+    margin-top: 11px;
+}
+#back{
+    margin-top: 10px;
+    float: left;
+}
+#back a:hover{
+    color: orange;
+}
+#font{
+    font-style: inherit;
+    font-size: 16px;
+}
+#name{
+    border: 0px;
+    width: 180px;
+}
+#null1{
+    color: red;
+}
